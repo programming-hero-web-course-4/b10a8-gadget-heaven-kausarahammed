@@ -1,0 +1,277 @@
+ [
+      {
+        "product_id": 1,
+        "product_title": "Gaming Laptop",
+        "product_image": "https://example.com/images/gaming-laptop.jpg",
+        "category": "Laptop",
+        "price": 1299.99,
+        "description": "High-performance gaming laptop with NVIDIA graphics and 16GB RAM.",
+        "specification": {
+          "processor": "Intel Core i7",
+          "graphics": "NVIDIA GTX 1660Ti",
+          "RAM": "16GB",
+          "storage": "512GB SSD",
+          "display": "15.6 inch Full HD"
+        },
+        "availability": "In stock",
+        "rating": 4.8
+      },
+      {
+        "product_id": 2,
+        "product_title": "Ultrabook Laptop",
+        "product_image": "https://example.com/images/ultrabook.jpg",
+        "category": "Laptop",
+        "price": 899.99,
+        "description": "Lightweight ultrabook with fast SSD and 8GB RAM.",
+        "specification": {
+          "processor": "Intel Core i5",
+          "RAM": "8GB",
+          "storage": "256GB SSD",
+          "display": "13.3 inch Full HD"
+        },
+        "availability": "In stock",
+        "rating": 4.3
+      },
+      {
+        "product_id": 3,
+        "product_title": "Iphone 15 Pro Max",
+        "product_image": "https://example.com/images/smartphone.jpg",
+        "category": "Phones",
+        "price": 999.99,
+        "description": "Latest smartphone with 5G connectivity and advanced camera features.",
+        "specification": {
+          "processor": "A14 Bionic",
+          "camera": "Triple 12MP Ultra Wide",
+          "storage": "128GB",
+          "display": "6.7 inch Super Retina XDR"
+        },
+        "availability": "Out of stock",
+        "rating": 4.7
+      },
+      {
+        "product_id": 4,
+        "product_title": "Smartphone Lite",
+        "product_image": "https://example.com/images/smartphone-lite.jpg",
+        "category": "Phones",
+        "price": 399.99,
+        "description": "Affordable smartphone with impressive battery life.",
+        "specification": {
+          "processor": "Snapdragon 732G",
+          "camera": "Dual 48MP",
+          "storage": "64GB",
+          "display": "6.5 inch HD+"
+        },
+        "availability": "In stock",
+        "rating": 4.1
+      },
+      {
+        "product_id": 5,
+        "product_title": "Smart Watch Series 6",
+        "product_image": "https://example.com/images/smartwatch-series6.jpg",
+        "category": "Smart Watches",
+        "price": 429.99,
+        "description": "Feature-rich smartwatch with health monitoring capabilities.",
+        "specification": {
+          "battery_life": "18 hours",
+          "connectivity": "Bluetooth, Wi-Fi",
+          "water_resistance": "IP68",
+          "color": "Black"
+        },
+        "availability": "In stock",
+        "rating": 4.6
+      },
+      {
+        "product_id": 6,
+        "product_title": "Fitness Tracker Watch",
+        "product_image": "https://example.com/images/fitness-tracker.jpg",
+        "category": "Smart Watches",
+        "price": 99.99,
+        "description": "Affordable fitness tracker with heart rate and sleep monitoring.",
+        "specification": {
+          "battery_life": "7 days",
+          "connectivity": "Bluetooth",
+          "water_resistance": "IP67",
+          "color": "Blue"
+        },
+        "availability": "In stock",
+        "rating": 4.3
+      },
+      {
+        "product_id": 7,
+        "product_title": "Wireless Charger Pad",
+        "product_image": "https://example.com/images/charger-pad.jpg",
+        "category": "Chargers",
+        "price": 29.99,
+        "description": "Fast wireless charging pad compatible with various devices.",
+        "specification": {
+          "input": "10W",
+          "compatibility": "Qi-enabled devices",
+          "cable_length": "1 meter",
+          "color": "Black"
+        },
+        "availability": "In stock",
+        "rating": 4.4
+      },
+      {
+        "product_id": 8,
+        "product_title": "USB-C Fast Charger",
+        "product_image": "https://example.com/images/usb-c-charger.jpg",
+        "category": "Chargers",
+        "price": 19.99,
+        "description": "Compact USB-C fast charger for smartphones and tablets.",
+        "specification": {
+          "output": "18W",
+          "compatibility": "USB-C devices",
+          "cable_length": "1.5 meters",
+          "color": "White"
+        },
+        "availability": "In stock",
+        "rating": 4.5
+      },
+      {
+        "product_id": 9,
+        "product_title": "Portable Power Bank",
+        "product_image": "https://example.com/images/power-bank.jpg",
+        "category": "Power Banks",
+        "price": 34.99,
+        "description": "High-capacity portable power bank with dual USB outputs.",
+        "specification": {
+          "capacity": "20000mAh",
+          "output": "Dual USB",
+          "color": "Gray",
+          "dimensions": "5.9 x 2.9 x 0.6 inches"
+        },
+        "availability": "In stock",
+        "rating": 4.6
+      },{
+        "product_id": 10,
+        "product_title": "iPhone 14 Pro Max",
+        "product_image": "https://example.com/images/iphone-14-pro-max.jpg",
+        "category": "iPhone",
+        "price": 1099.99,
+        "description": "Latest iPhone model with advanced camera system and A16 chip.",
+        "specification": {
+          "processor": "A16 Bionic",
+          "camera": "48MP Main, 12MP Ultra Wide",
+          "storage": "128GB, 256GB, 512GB, 1TB",
+          "display": "6.7 inch Super Retina XDR"
+        },
+        "availability": "In stock",
+        "rating": 4.8
+      },
+      {
+        "product_id": 11,
+        "product_title": "iPhone 14",
+        "product_image": "https://example.com/images/iphone-14.jpg",
+        "category": "iPhone",
+        "price": 799.99,
+        "description": "New iPhone with impressive battery life and 5G connectivity.",
+        "specification": {
+          "processor": "A15 Bionic",
+          "camera": "Dual 12MP system",
+          "storage": "128GB, 256GB, 512GB",
+          "display": "6.1 inch Super Retina XDR"
+        },
+        "availability": "In stock",
+        "rating": 4.6
+      },
+      {
+        "product_id": 12,
+        "product_title": "iPhone 13 Mini",
+        "product_image": "https://example.com/images/iphone-13-mini.jpg",
+        "category": "iPhone",
+        "price": 699.99,
+        "description": "Compact iPhone with powerful A15 chip and dual camera.",
+        "specification": {
+          "processor": "A15 Bionic",
+          "camera": "Dual 12MP system",
+          "storage": "128GB, 256GB",
+          "display": "5.4 inch Super Retina XDR"
+        },
+        "availability": "In stock",
+        "rating": 4.4
+      },
+      {
+        "product_id": 13,
+        "product_title": "iPhone 12",
+        "product_image": "https://example.com/images/iphone-12.jpg",
+        "category": "iPhone",
+        "price": 599.99,
+        "description": "iPhone with A14 chip and ceramic shield, offering excellent durability.",
+        "specification": {
+          "processor": "A14 Bionic",
+          "camera": "Dual 12MP system",
+          "storage": "64GB, 128GB, 256GB",
+          "display": "6.1 inch Super Retina XDR"
+        },
+        "availability": "In stock",
+        "rating": 4.3
+      },
+      {
+        "product_id": 14,
+        "product_title": "Smartphone Pro Max",
+        "product_image": "https://example.com/images/smartphone-pro-max.jpg",
+        "category": "Phones",
+        "price": 999.99,
+        "description": "High-end smartphone with 5G connectivity and an advanced triple-lens camera.",
+        "specification": {
+          "processor": "A15 Bionic",
+          "camera": "Triple 12MP Ultra Wide, Wide, and Telephoto",
+          "storage": "128GB, 256GB, 512GB",
+          "display": "6.7 inch Super Retina XDR"
+        },
+        "availability": "In stock",
+        "rating": 4.8
+      },
+      {
+        "product_id": 15,
+        "product_title": "Smartphone Lite",
+        "product_image": "https://example.com/images/smartphone-lite.jpg",
+        "category": "Phones",
+        "price": 399.99,
+        "description": "Affordable smartphone with impressive battery life and a dual-camera system.",
+        "specification": {
+          "processor": "Snapdragon 732G",
+          "camera": "Dual 48MP and 8MP",
+          "storage": "64GB, 128GB",
+          "display": "6.5 inch HD+"
+        },
+        "availability": "In stock",
+        "rating": 4.2
+      },
+      {
+        "product_id": 1,
+        "product_title": "MacBook Pro 14-inch",
+        "product_image": "https://example.com/images/macbook-pro-14.jpg",
+        "category": "MacBook",
+        "price": 1999.99,
+        "description": "High-performance 14-inch MacBook Pro with M1 Pro chip, designed for professionals.",
+        "specification": {
+          "processor": "Apple M1 Pro",
+          "RAM": "16GB",
+          "storage": "512GB SSD",
+          "display": "14.2 inch Liquid Retina XDR",
+          "battery_life": "Up to 17 hours"
+        },
+        "availability": "In stock",
+        "rating": 4.9
+      },
+      {
+        "product_id": 2,
+        "product_title": "MacBook Air 13-inch",
+        "product_image": "https://example.com/images/macbook-air-13.jpg",
+        "category": "MacBook",
+        "price": 999.99,
+        "description": "Lightweight and powerful MacBook Air with the M1 chip, ideal for everyday use.",
+        "specification": {
+          "processor": "Apple M1",
+          "RAM": "8GB",
+          "storage": "256GB SSD",
+          "display": "13.3 inch Retina",
+          "battery_life": "Up to 18 hours"
+        },
+        "availability": "In stock",
+        "rating": 4.7
+      }
+    ]
+   
