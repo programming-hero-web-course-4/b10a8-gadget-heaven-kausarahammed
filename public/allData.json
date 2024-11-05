@@ -2,276 +2,357 @@
       {
         "product_id": 1,
         "product_title": "Gaming Laptop",
-        "product_image": "https://example.com/images/gaming-laptop.jpg",
+        "product_image": "https://i.ibb.co.com/4fr1cfp/photo-1610465299996-30f240ac2b1c.jpg",
         "category": "Laptop",
-        "price": 1299.99,
+        "price": 809.99,
         "description": "High-performance gaming laptop with NVIDIA graphics and 16GB RAM.",
-        "specification": {
-          "processor": "Intel Core i7",
-          "graphics": "NVIDIA GTX 1660Ti",
-          "RAM": "16GB",
-          "storage": "512GB SSD",
-          "display": "15.6 inch Full HD"
-        },
+        "specification":[
+          "Intel Core i7",
+           "NVIDIA GTX 1660Ti",
+            "16GB",
+           "512GB SSD",
+           "15.6 inch Full HD"
+        ],
         "availability": "In stock",
-        "rating": 4.8
+        "rating": 9.8
       },
       {
         "product_id": 2,
-        "product_title": "Ultrabook Laptop",
-        "product_image": "https://example.com/images/ultrabook.jpg",
+        "product_title": "Samsung Laptop",
+        "product_image": "https://i.ibb.co.com/hXd0Sdg/w-KOY6-JLym-Fn-Zs7m9-Jy4c-Mc-Yn3uk-IF-ne-Bb-LWW42e-Kg.webp",
         "category": "Laptop",
-        "price": 899.99,
+        "price": 409.99,
         "description": "Lightweight ultrabook with fast SSD and 8GB RAM.",
-        "specification": {
-          "processor": "Intel Core i5",
-          "RAM": "8GB",
-          "storage": "256GB SSD",
-          "display": "13.3 inch Full HD"
-        },
+        "specification": [
+           "Intel Core i5",
+           "8GB",
+           "256GB SSD",
+           "13.3 inch Full HD"
+        ],
         "availability": "In stock",
         "rating": 4.3
       },
       {
         "product_id": 3,
-        "product_title": "Iphone 15 Pro Max",
-        "product_image": "https://example.com/images/smartphone.jpg",
+        "product_title": "Readme Note 13 Pro+",
+        "product_image": "https://i.ibb.co.com/wp3Snw0/1702914639-Ce-nest-pas-nous-qui-le-disons-cest-Xiaomi.jpg",
         "category": "Phones",
-        "price": 999.99,
+        "price": 209.99,
         "description": "Latest smartphone with 5G connectivity and advanced camera features.",
-        "specification": {
-          "processor": "A14 Bionic",
-          "camera": "Triple 12MP Ultra Wide",
-          "storage": "128GB",
-          "display": "6.7 inch Super Retina XDR"
-        },
+        "specification": [
+           "A14 Bionic",
+            "Triple 12MP Ultra Wide",
+           "128GB",
+            "6.7 inch Super Retina XDR"
+        ],
         "availability": "Out of stock",
         "rating": 4.7
       },
       {
         "product_id": 4,
         "product_title": "Smartphone Lite",
-        "product_image": "https://example.com/images/smartphone-lite.jpg",
+        "product_image": "https://i.ibb.co.com/zH6fLYt/honor-200-lite-5.jpg",
         "category": "Phones",
-        "price": 399.99,
+        "price": 299.99,
         "description": "Affordable smartphone with impressive battery life.",
-        "specification": {
-          "processor": "Snapdragon 732G",
-          "camera": "Dual 48MP",
-          "storage": "64GB",
-          "display": "6.5 inch HD+"
-        },
+        "specification": [
+          "Snapdragon 732G",
+          "Dual 48MP",
+           "64GB",
+            "6.5 inch HD+"
+        ],
         "availability": "In stock",
         "rating": 4.1
       },
       {
         "product_id": 5,
         "product_title": "Smart Watch Series 6",
-        "product_image": "https://example.com/images/smartwatch-series6.jpg",
+        "product_image": "https://i.ibb.co.com/wSRxwdk/GT6-Ultra-Smart-Watch-600x600.webp",
         "category": "Smart Watches",
-        "price": 429.99,
+        "price": 129.99,
         "description": "Feature-rich smartwatch with health monitoring capabilities.",
-        "specification": {
-          "battery_life": "18 hours",
-          "connectivity": "Bluetooth, Wi-Fi",
-          "water_resistance": "IP68",
-          "color": "Black"
-        },
+        "specification": [
+          "18 hours",
+          "Bluetooth, Wi-Fi",
+          "IP68",
+           "Black"
+        ],
         "availability": "In stock",
         "rating": 4.6
       },
       {
         "product_id": 6,
         "product_title": "Fitness Tracker Watch",
-        "product_image": "https://example.com/images/fitness-tracker.jpg",
+        "product_image": "https://i.ibb.co.com/QFMF6JG/41z-Jn90ad-GL-AC-UL330-SR330-330.jpg",
         "category": "Smart Watches",
         "price": 99.99,
         "description": "Affordable fitness tracker with heart rate and sleep monitoring.",
-        "specification": {
-          "battery_life": "7 days",
-          "connectivity": "Bluetooth",
-          "water_resistance": "IP67",
-          "color": "Blue"
-        },
+        "specification": [
+         "7 days",
+           "Bluetooth",
+          "IP67",
+          "Blue"
+        ],
         "availability": "In stock",
-        "rating": 4.3
+        "rating": 3.3
       },
       {
         "product_id": 7,
         "product_title": "Wireless Charger Pad",
-        "product_image": "https://example.com/images/charger-pad.jpg",
+        "product_image": "https://i.ibb.co.com/PY2Nx45/s-l1200.jpg",
         "category": "Chargers",
-        "price": 29.99,
+        "price": 55.99,
         "description": "Fast wireless charging pad compatible with various devices.",
-        "specification": {
-          "input": "10W",
-          "compatibility": "Qi-enabled devices",
-          "cable_length": "1 meter",
-          "color": "Black"
-        },
+        "specification": [
+            "10W",
+           "Qi-enabled devices",
+           "1 meter",
+           "Black"
+        ],
         "availability": "In stock",
         "rating": 4.4
       },
       {
         "product_id": 8,
         "product_title": "USB-C Fast Charger",
-        "product_image": "https://example.com/images/usb-c-charger.jpg",
+        "product_image": "https://i.ibb.co.com/pw9bZj7/61bf00p-Zq-DL-AC-UF1000-1000-QL80.jpg",
         "category": "Chargers",
-        "price": 19.99,
+        "price": 52.99,
         "description": "Compact USB-C fast charger for smartphones and tablets.",
-        "specification": {
-          "output": "18W",
-          "compatibility": "USB-C devices",
-          "cable_length": "1.5 meters",
-          "color": "White"
-        },
+        "specification": [
+            "18W",
+           "USB-C devices",
+         "1.5 meters",
+            "White"
+        ],
         "availability": "In stock",
-        "rating": 4.5
+        "rating": 3.5
       },
       {
         "product_id": 9,
         "product_title": "Portable Power Bank",
-        "product_image": "https://example.com/images/power-bank.jpg",
+        "product_image": "https://i.ibb.co.com/k3Yg6X1/51zbw-Q65j6-L-AC-SL1500.jpg",
         "category": "Power Banks",
-        "price": 34.99,
+        "price": 60.99,
         "description": "High-capacity portable power bank with dual USB outputs.",
-        "specification": {
-          "capacity": "20000mAh",
-          "output": "Dual USB",
-          "color": "Gray",
-          "dimensions": "5.9 x 2.9 x 0.6 inches"
-        },
+        "specification": [
+            "20000mAh",
+         "Dual USB",
+          "Gray",
+           "5.9 x 2.9 x 0.6 inches"
+        ],
         "availability": "In stock",
-        "rating": 4.6
-      },{
+        "rating": 3.6
+      },
+      {
         "product_id": 10,
         "product_title": "iPhone 14 Pro Max",
-        "product_image": "https://example.com/images/iphone-14-pro-max.jpg",
+        "product_image": "https://i.ibb.co.com/wMLDkQd/Applei-Phone14-Pro-1-01.jpg",
         "category": "iPhone",
-        "price": 1099.99,
+        "price": 409.99,
         "description": "Latest iPhone model with advanced camera system and A16 chip.",
-        "specification": {
-          "processor": "A16 Bionic",
-          "camera": "48MP Main, 12MP Ultra Wide",
-          "storage": "128GB, 256GB, 512GB, 1TB",
-          "display": "6.7 inch Super Retina XDR"
-        },
+        "specification": [
+           "A16 Bionic",
+         "48MP Main, 12MP Ultra Wide",
+          "128GB, 256GB, 512GB, 1TB",
+          "6.7 inch Super Retina XDR"
+        ],
         "availability": "In stock",
-        "rating": 4.8
+        "rating": 2.8
       },
       {
         "product_id": 11,
         "product_title": "iPhone 14",
-        "product_image": "https://example.com/images/iphone-14.jpg",
+        "product_image": "https://i.ibb.co.com/3k3dRdP/iphone-14-pro-max-1662626716.jpg",
         "category": "iPhone",
-        "price": 799.99,
+        "price": 509.99,
         "description": "New iPhone with impressive battery life and 5G connectivity.",
-        "specification": {
-          "processor": "A15 Bionic",
-          "camera": "Dual 12MP system",
-          "storage": "128GB, 256GB, 512GB",
-          "display": "6.1 inch Super Retina XDR"
-        },
+        "specification": [
+         "A15 Bionic",
+         "Dual 12MP system",
+         "128GB, 256GB, 512GB",
+           "6.1 inch Super Retina XDR"
+        ],
         "availability": "In stock",
-        "rating": 4.6
+        "rating": 3.6
       },
       {
         "product_id": 12,
         "product_title": "iPhone 13 Mini",
-        "product_image": "https://example.com/images/iphone-13-mini.jpg",
+        "product_image": "https://i.ibb.co.com/R06c5F2/iphone-13-pro-128-GB-980x980.jpg",
         "category": "iPhone",
-        "price": 699.99,
+        "price": 309.99,
         "description": "Compact iPhone with powerful A15 chip and dual camera.",
-        "specification": {
-          "processor": "A15 Bionic",
-          "camera": "Dual 12MP system",
-          "storage": "128GB, 256GB",
-          "display": "5.4 inch Super Retina XDR"
-        },
+        "specification": [
+          "A15 Bionic",
+     "Dual 12MP system",
+           "128GB, 256GB",
+           "5.4 inch Super Retina XDR"
+        ],
         "availability": "In stock",
-        "rating": 4.4
+        "rating": 2.4
       },
       {
         "product_id": 13,
         "product_title": "iPhone 12",
-        "product_image": "https://example.com/images/iphone-12.jpg",
+        "product_image": "https://i.ibb.co.com/KsgMQz0/maxresdefault.jpg",
         "category": "iPhone",
-        "price": 599.99,
+        "price": 409.99,
         "description": "iPhone with A14 chip and ceramic shield, offering excellent durability.",
-        "specification": {
-          "processor": "A14 Bionic",
-          "camera": "Dual 12MP system",
-          "storage": "64GB, 128GB, 256GB",
-          "display": "6.1 inch Super Retina XDR"
-        },
+        "specification": [
+  "A14 Bionic",
+            "Dual 12MP system",
+            "64GB, 128GB, 256GB",
+           "6.1 inch Super Retina XDR"
+        ],
         "availability": "In stock",
-        "rating": 4.3
+        "rating": 3.3
       },
       {
         "product_id": 14,
-        "product_title": "Smartphone Pro Max",
-        "product_image": "https://example.com/images/smartphone-pro-max.jpg",
+        "product_title": "Samsung",
+        "product_image": "https://i.ibb.co.com/yWSH8Wz/Samsung-smartphone-price-in-Bangladesh.png",
         "category": "Phones",
-        "price": 999.99,
+        "price": 99.99,
         "description": "High-end smartphone with 5G connectivity and an advanced triple-lens camera.",
-        "specification": {
-          "processor": "A15 Bionic",
-          "camera": "Triple 12MP Ultra Wide, Wide, and Telephoto",
-          "storage": "128GB, 256GB, 512GB",
-          "display": "6.7 inch Super Retina XDR"
-        },
+        "specification": [
+            "A15 Bionic",
+           "Triple 12MP Ultra Wide, Wide, and Telephoto",
+          "128GB, 256GB, 512GB",
+            "6.7 inch Super Retina XDR"
+        ],
         "availability": "In stock",
-        "rating": 4.8
+        "rating": 2.8
       },
       {
         "product_id": 15,
-        "product_title": "Smartphone Lite",
-        "product_image": "https://example.com/images/smartphone-lite.jpg",
+        "product_title": "Oppo Reno 10",
+        "product_image": "https://i.ibb.co.com/tbsBbyn/oppo-reno-10-series.webp",
         "category": "Phones",
-        "price": 399.99,
+        "price": 99.99,
         "description": "Affordable smartphone with impressive battery life and a dual-camera system.",
-        "specification": {
-          "processor": "Snapdragon 732G",
-          "camera": "Dual 48MP and 8MP",
-          "storage": "64GB, 128GB",
-          "display": "6.5 inch HD+"
-        },
+        "specification": [
+           "Snapdragon 732G",
+            "Dual 48MP and 8MP",
+           "64GB, 128GB",
+            "6.5 inch HD+"
+        ],
         "availability": "In stock",
-        "rating": 4.2
+        "rating": 3.2
       },
       {
-        "product_id": 1,
+        "product_id": 16,
         "product_title": "MacBook Pro 14-inch",
-        "product_image": "https://example.com/images/macbook-pro-14.jpg",
+        "product_image": "https://i.ibb.co.com/hRbvtMK/Best-Mac-Book-1-920x518.webp",
         "category": "MacBook",
-        "price": 1999.99,
+        "price": 799.99,
         "description": "High-performance 14-inch MacBook Pro with M1 Pro chip, designed for professionals.",
-        "specification": {
-          "processor": "Apple M1 Pro",
-          "RAM": "16GB",
-          "storage": "512GB SSD",
-          "display": "14.2 inch Liquid Retina XDR",
-          "battery_life": "Up to 17 hours"
-        },
+        "specification": [
+           "Apple M1 Pro",
+           "16GB",
+           "512GB SSD",
+            "14.2 inch Liquid Retina XDR",
+            "Up to 17 hours"
+      ],
         "availability": "In stock",
-        "rating": 4.9
+        "rating": 3.9
       },
       {
-        "product_id": 2,
+        "product_id": 17,
         "product_title": "MacBook Air 13-inch",
-        "product_image": "https://example.com/images/macbook-air-13.jpg",
+        "product_image": "https://i.ibb.co.com/p1JyNLr/best-macbooks-to-buy-2-1683051709961.jpg",
         "category": "MacBook",
-        "price": 999.99,
+        "price": 609.99,
         "description": "Lightweight and powerful MacBook Air with the M1 chip, ideal for everyday use.",
-        "specification": {
-          "processor": "Apple M1",
-          "RAM": "8GB",
-          "storage": "256GB SSD",
-          "display": "13.3 inch Retina",
-          "battery_life": "Up to 18 hours"
-        },
+        "specification": [
+            "Apple M1",
+           "8GB",
+            "256GB SSD",
+            "13.3 inch Retina",
+           "Up to 18 hours"
+        ],
         "availability": "In stock",
-        "rating": 4.7
+        "rating": 3.7
+      },
+      {
+        "product_id": 18,
+        "product_title": "Ultrabook Laptop",
+        "product_image": "https://i.ibb.co.com/0qTFHFf/photo-1518459506758-fcec22c80e75.jpg",
+        "category": "Laptop",
+        "price": 109.99,
+        "description": "Lightweight ultrabook with fast SSD and 8GB RAM.",
+        "specification": [
+            "Intel Core i5",
+          "8GB",
+            "256GB SSD",
+            "13.3 inch Full HD"
+        ],
+        "availability": "In stock",
+        "rating": 2.3
+      },
+      {
+        "product_id": 19,
+        "product_title": "Ultrabook Laptop",
+        "product_image": "https://i.ibb.co.com/Hz3qHmG/hp-pavilion-plus-14-review-cover-gadgets360-1666093327282.webp",
+        "category": "Laptop",
+        "price": 309.99,
+        "description": "Lightweight ultrabook with fast SSD and 8GB RAM.",
+        "specification": [
+           "Intel Core i5",
+            "8GB",
+            "256GB SSD",
+            "13.3 inch Full HD"
+        ],
+        "availability": "In stock",
+        "rating": 3.3
+      },
+      {
+        "product_id": 20,
+        "product_title": "HP Laptop",
+        "product_image": "https://i.ibb.co.com/m6Z7rBn/hp-pavilion-plus-14-2023-rear-e1699382732664.webp",
+        "category": "Laptop",
+        "price": 509.99,
+        "description": "Lightweight ultrabook with fast SSD and 8GB RAM.",
+        "specification": [
+           "Intel Core i5",
+            "16GB",
+            "256GB SSD",
+           "13.3 inch Full HD"
+        ],
+        "availability": "In stock",
+        "rating": 4.0
+      },
+      {
+        "product_id": 21,
+        "product_title": "HP Laptop",
+        "product_image": "https://i.ibb.co.com/R0pjV39/hp-spectre-x360-14-lid.webp",
+        "category": "Laptop",
+        "price": 299  ,
+        "description": "Lightweight ultrabook with fast SSD and 8GB RAM.",
+        "specification": [
+          "Intel Core i3",
+           "8GB",
+          "256GB SSD",
+           "13.3 inch Full HD"
+        ],
+        "availability": "In stock",
+        "rating": 2.3
+      },
+      {
+        "product_id": 22,
+        "product_title": "Lenovo Laptop",
+        "product_image": "https://i.ibb.co.com/8s4bWkB/20221027-165805.webp",
+        "category": "Laptop",
+        "price": 309.99,
+        "description": "Lightweight ultrabook with fast SSD and 8GB RAM.",
+        "specification": [
+           "Intel Core i7",
+          "16GB",
+          "256GB SSD",
+          "13.3 inch Full HD"
+          ],
+        "availability": "In stock",
+        "rating": 3.3
       }
     ]
    
