@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import { NavLink, Outlet, useLoaderData } from "react-router-dom";
-import { getStrodeCard } from "../Utility";
+import { getStrodeCard, getWishList } from "../Utility";
 import StrodeDisplay from "../components/strodeDisplay";
 const Dashboard = () => {
   const [toggle, setToggle] =useState('cart')
   const data = useLoaderData();
   const [datas, setData] = useState([]);
-
+const [wishList, setWishList] = useState([])
+console.log(wishList)
+console.log(datas)
   useEffect(() => {
     const refresh = ()=>{
       const strodeId = getStrodeCard();
@@ -17,6 +19,16 @@ const Dashboard = () => {
     return refresh()
   }, []);
   
+
+  useEffect(() => {
+    const wishRefresh = ()=>{
+      const strodeWish = getWishList();
+    const strodeWishLish = strodeWish.map((d) => parseInt(d));
+    const wishListLs = data.filter((d) => strodeWishLish.includes(d.product_id));
+    setWishList(wishListLs);
+    }
+    return wishRefresh()
+  }, []);
   const handleSortByPrice = (sort) => {
     if (sort === "Sort By Price") {
       const sortPrice = [...datas].sort((a, b) => b.price - a.price);
@@ -36,11 +48,11 @@ const Dashboard = () => {
           accessories, we have it all!
         </p>
         <div className="flex gap-4 justify-center mt-8 text-white">
-          <button onClick={()=>setToggle("cart")} className={`border px-10 py-2 rounded-full text-lg ${toggle === "cart"?"bg-white":""}`} >
+          <button onClick={()=>setToggle("cart")} className={`border px-10 py-2 rounded-full text-lg ${toggle === "cart"?"bg-white text-purple-500 font-bold":""}`} >
             Cart
           </button>
           <button onClick={()=>setToggle("wishlist")} 
-            className={`border px-10 py-2 rounded-full text-lg ${toggle ==="wishlist"?"bg-white":""}`}
+            className={`border px-10 py-2 rounded-full text-lg ${toggle ==="wishlist"?"bg-white text-purple-500 font-bold":""}`}
          
           >
             Wishlist
@@ -72,8 +84,14 @@ const Dashboard = () => {
          <StrodeDisplay  data={d} key={d.product_id}></StrodeDisplay> 
       ))}
        
-    </div>:<StrodeDisplay ></StrodeDisplay>
+    </div>: <div className="container mx-auto mt-12">
+      <h2 className="font-bold text-6">WishList</h2>
+    {wishList?.map((d) => (
+         <StrodeDisplay  data={d} key={d.product_id}></StrodeDisplay> 
+      ))}
+    </div>
      }
+    
       <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
           <p className="text-5xl text-green-400 flex justify-center mb-6"><img src="./Group.png" alt="" /></p>
