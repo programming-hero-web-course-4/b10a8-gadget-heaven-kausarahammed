@@ -30,6 +30,20 @@ const handleRemoveForLs = (id,count,setCount) => {
    
 };
 
+
+const handleRemoveWishList = (id,count,setCount) => {
+     
+    const allId = strodeCard();
+    const filteredIds = allId.filter(d => d !== id);
+    localStorage.setItem("product", JSON.stringify(filteredIds));
+    if(count > 0){
+    return  setCount(count - 1); 
+    }else{
+       setCount(0)
+    }
+   
+};
+
 const getWishList = () => {
     const strodeCard = localStorage.getItem("wishlist");
     return strodeCard ? JSON.parse(strodeCard) : [];
@@ -47,22 +61,11 @@ const addWishList = (data, countWish,setCountWish) => {
     }
 };
 
-const handleRemoveWishList = (id,count,setCount) => {
-     
-    const allId = strodeCard();
-    const filteredIds = allId.filter(d => d !== id);
-    localStorage.setItem("product", JSON.stringify(filteredIds));
-    if(count > 0){
-    return  setCount(count - 1); 
-    }else{
-       setCount(0)
-    }
-   
-};
 
 
 
-export { addStrodeCard, getStrodeCard, addWishList, getWishList, handleRemoveForLs };
+
+export { addStrodeCard, getStrodeCard, addWishList, getWishList, handleRemoveForLs,handleRemoveWishList };
 
 
 

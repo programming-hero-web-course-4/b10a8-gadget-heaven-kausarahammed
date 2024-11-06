@@ -1,11 +1,11 @@
  import React, { useContext, useState } from 'react';
 import { CiCircleRemove } from 'react-icons/ci';
-import { handleRemoveForLs } from '../Utility';
 import { CountContext } from '../layouts/MainLayout';
- 
- const StrodeDisplay = ({ data}) => {
+ const StrodeDisplay = ({type, handleRemoveForLs,data}) => {
     const {price,product_image,product_title,specification,product_id} = data
     const [count,setCount] = useContext(CountContext)
+     
+    
   
     return (
         <div> 
@@ -19,7 +19,7 @@ import { CountContext } from '../layouts/MainLayout';
                     <p className='text-lg text-gray-500 my-4'>{specification}</p>
                     <p className='text-xl font-semibold'>Price: $ {price}</p>
                     </div>
-                    <div onClick={()=>handleRemoveForLs(product_id,count,setCount)} className='text-3xl text-red-500 cursor-pointer'>
+                    <div onClick={() => handleRemoveForLs(product_id,count,setCount,type)} className='text-3xl text-red-500 cursor-pointer'>
                   <CiCircleRemove  /> 
                     </div>
                 </div>
