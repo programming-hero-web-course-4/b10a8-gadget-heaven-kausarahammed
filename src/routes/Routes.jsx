@@ -11,9 +11,9 @@ import SmartWatche from "../pages/SmartWatche";
 import MacBook from "../pages/MacBook";
 import Iphone from "../pages/Iphone";
 import Accessories from "../pages/Accessories";
-import Details from "../pages/Details";
- 
- 
+import Details from "../pages/Details"; 
+import Contact from "./Contact";
+import Card from "./Card";
 const router = createBrowserRouter([
     {
       path: "/",
@@ -77,8 +77,14 @@ const router = createBrowserRouter([
         },
         {
             path:"/dashboard",
-            element:<Dashboard></Dashboard>
+            element:<Dashboard></Dashboard>,
+            loader:()=>fetch("/allData.json"), 
+            
         },
+        {
+          path:"/contact",
+          element:<Contact></Contact>
+        }
       ]
     },
   ]);

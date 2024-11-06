@@ -10,7 +10,6 @@ const Phones = () => {
         const categoryPhones = data.filter(d =>d.category === 'Phones')
         setCategoryData(categoryPhones)
     },[data,Phones])
-    console.log(categoryData)
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-6 pb-12">
              

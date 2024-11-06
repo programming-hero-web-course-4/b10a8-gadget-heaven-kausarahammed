@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar';
 import { Outlet } from 'react-router-dom';
 import Footer from '../components/Footer';
 export const CountContext = createContext(0)
-export const CountWishContext = createContext(5)
+export const CountWishContext = createContext(0)
 const MainLayout = () => {
-    const [countWish, setCountWish] = useState(5)
+    const [countWish, setCountWish] = useState(0)
     const [count, setCount] = useState(0)
     return (
         <div>

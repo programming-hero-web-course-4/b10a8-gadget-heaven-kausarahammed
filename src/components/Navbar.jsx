@@ -10,6 +10,7 @@ const Navbar = () => {
   const [countWish, setCountWish] = useContext(CountWishContext);
   const [count, setCount] = useContext(CountContext);
 
+
     return (
     <div className="navbar container mx-auto pt-8 bg-transparent ">
   <div className="navbar-start z-50">
@@ -34,9 +35,10 @@ const Navbar = () => {
        <NavLink className={({isActive})=>` ${isActive?"text-purple-500 ": ""}`} to="/">Home</NavLink>
        <NavLink className={({isActive})=>` ${isActive?"text-purple-500 underline": ""}`} to="/statistics">Statistics</NavLink>
        <NavLink className={({isActive})=>` ${isActive?"text-purple-500 underline": ""}`} to="/dashboard">Dashboard</NavLink>
+       <NavLink className={({isActive})=>` ${isActive?"text-purple-500 underline": ""}`} to="/contact">Dashboard</NavLink>
       </ul>
     </div>
-    <a className="btn btn-ghost text-2xl font-bold  text-black">Gadget Heaven</a>
+    <Link to="/" className="btn btn-ghost text-2xl font-bold  text-black">Gadget Heaven</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -44,6 +46,7 @@ const Navbar = () => {
        <NavLink className={({isActive})=>` ${isActive?"text-purple-100 underline ": "text-md"}`} to="/">Home</NavLink>
        <NavLink className={({isActive})=>` ${isActive?"text-purple-500 underline ": "text-md"}`} to="/statistics">Statistics</NavLink>
        <NavLink className={({isActive})=>` ${isActive?"text-purple-500 underline": "text-md"}`} to="/dashboard">Dashboard</NavLink>
+       <NavLink className={({isActive})=>` ${isActive?"text-purple-500 underline": "text-md"}`} to="/contact">Contact Us</NavLink>
        </div>
     </ul>
   </div>

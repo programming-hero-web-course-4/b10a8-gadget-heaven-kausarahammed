@@ -4,7 +4,7 @@ import { CiShoppingCart } from "react-icons/ci";
 import { GiLoveMystery } from "react-icons/gi";
 import { NavLink, useLoaderData, useParams } from "react-router-dom";
 import { CountContext, CountWishContext } from "../layouts/MainLayout";
-import { addStrodeCard } from "../Utility";
+import { addStrodeCard, addWishList } from "../Utility";
  
 
 const Details = () => {
@@ -26,14 +26,19 @@ const Details = () => {
     description,
     specification,
     rating,
+    product_id
   } = displayData || {};
 const [countWish, setCountWish] = useContext(CountWishContext)
 const [count,setCount] = useContext(CountContext)
-const handleAddToCardLs = (card)=>{
-  console.log(card)
-  addStrodeCard(card)
+const [productPrice, setProductPrice] = useState()
+const handleAddToCardLs = (card,price)=>{
+  addStrodeCard(card,setCount,count )
+  setProductPrice(price)
 }
- 
+const handleAddWishList = (id) =>{
+  addWishList(id, countWish, setCountWish )
+}
+
   return (
     <div>
       <div className="h-[290px] bg-purple-500 mt-6 text-center">
@@ -97,17 +102,17 @@ const handleAddToCardLs = (card)=>{
               <p className="border rounded-full w-10 text-center">{rating}</p>
             </div>
             <div className="flex items-center gap-4 ">
-              <NavLink
+              <button
                 className=" flex  px-3 py-1 rounded-3xl items-center border w-36 text-md mt-4"
-                to="" onClick={()=>handleAddToCardLs(price,setCount(count + 1))}>
+                to="" onClick={()=>handleAddToCardLs(product_id,price)}>
                 Add To Card
                 <p className="text-2xl">
                   <CiShoppingCart />
                 </p>
-              </NavLink>
-              <NavLink to="" className="text-2xl text-center mt-6 border rounded-full p-2" onClick={()=>setCountWish(countWish + 1)}>
+              </button>
+              <button   className="text-2xl text-center mt-6 border rounded-full p-2" onClick={()=>handleAddWishList(product_id)}>
                 <GiLoveMystery />
-              </NavLink>
+              </button>
             </div>
           </div>
         </div>
